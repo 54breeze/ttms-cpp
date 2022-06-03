@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="new"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\local\;CMake Files\..\..\usr\local\lib\;CMake Files\..\..\usr\local\lib\cmake\;CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\;CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.qhxFVlJBLD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new-lib">
+				<Option output="/tmp/tmp.qhxFVlJBLD/cmake-build-debug/libnew-lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.qhxFVlJBLD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDATABASE_FILE=&quot;/tmp/tmp.qhxFVlJBLD/db.sqlite&quot;"/>
+					<Add option="-DDATABASE_MIGRATIONS=&quot;/tmp/tmp.qhxFVlJBLD/sql&quot;"/>
+					<Add directory="/tmp/tmp.qhxFVlJBLD/src"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp-sqlite"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 new-lib"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new-lib/fast">
+				<Option output="/tmp/tmp.qhxFVlJBLD/cmake-build-debug/libnew-lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.qhxFVlJBLD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDATABASE_FILE=&quot;/tmp/tmp.qhxFVlJBLD/db.sqlite&quot;"/>
+					<Add option="-DDATABASE_MIGRATIONS=&quot;/tmp/tmp.qhxFVlJBLD/sql&quot;"/>
+					<Add directory="/tmp/tmp.qhxFVlJBLD/src"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp-sqlite"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 new-lib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new-exe">
+				<Option output="/tmp/tmp.qhxFVlJBLD/cmake-build-debug/new-exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.qhxFVlJBLD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDATABASE_FILE=&quot;/tmp/tmp.qhxFVlJBLD/db.sqlite&quot;"/>
+					<Add option="-DDATABASE_MIGRATIONS=&quot;/tmp/tmp.qhxFVlJBLD/sql&quot;"/>
+					<Add directory="/tmp/tmp.qhxFVlJBLD/src"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp-sqlite"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 new-exe"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new-exe/fast">
+				<Option output="/tmp/tmp.qhxFVlJBLD/cmake-build-debug/new-exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.qhxFVlJBLD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDATABASE_FILE=&quot;/tmp/tmp.qhxFVlJBLD/db.sqlite&quot;"/>
+					<Add option="-DDATABASE_MIGRATIONS=&quot;/tmp/tmp.qhxFVlJBLD/sql&quot;"/>
+					<Add directory="/tmp/tmp.qhxFVlJBLD/src"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp-sqlite"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 new-exe/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.qhxFVlJBLD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.qhxFVlJBLD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.qhxFVlJBLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/src/App.cpp">
+			<Option target="new-exe"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/src/controller/TTMSController.hpp">
+			<Option target="new-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/src/db/TTMSDb.hpp">
+			<Option target="new-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/src/db/UserDb.hpp">
+			<Option target="new-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/src/dto/MessageDto.hpp">
+			<Option target="new-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/src/service/UserServer.cpp">
+			<Option target="new-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/src/service/UserServer.hpp">
+			<Option target="new-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/../../usr/local/lib/cmake/oatpp-1.3.0/oatppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/../../usr/local/lib/cmake/oatpp-1.3.0/oatppConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/../../usr/local/lib/cmake/oatpp-1.3.0/oatppTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/../../usr/local/lib/cmake/oatpp-1.3.0/oatppTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/../../usr/local/lib/cmake/oatpp-sqlite-1.3.0/oatpp-sqliteConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/../../usr/local/lib/cmake/oatpp-sqlite-1.3.0/oatpp-sqliteConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/../../usr/local/lib/cmake/oatpp-sqlite-1.3.0/oatpp-sqliteTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.qhxFVlJBLD/../../usr/local/lib/cmake/oatpp-sqlite-1.3.0/oatpp-sqliteTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

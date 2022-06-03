@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ttms"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\local\;CMake Files\..\..\usr\local\lib\;CMake Files\..\..\usr\local\lib\cmake\;CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\;CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.e0tXpVz1DM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ttms-lib">
+				<Option output="/tmp/tmp.e0tXpVz1DM/cmake-build-debug/libttms-lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e0tXpVz1DM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDATABASE_FILE=&quot;/tmp/tmp.e0tXpVz1DM/db.sqlite&quot;"/>
+					<Add option="-DDATABASE_MIGRATIONS=&quot;/tmp/tmp.e0tXpVz1DM/sql&quot;"/>
+					<Add directory="/tmp/tmp.e0tXpVz1DM/src"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp-sqlite"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 ttms-lib"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ttms-lib/fast">
+				<Option output="/tmp/tmp.e0tXpVz1DM/cmake-build-debug/libttms-lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e0tXpVz1DM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDATABASE_FILE=&quot;/tmp/tmp.e0tXpVz1DM/db.sqlite&quot;"/>
+					<Add option="-DDATABASE_MIGRATIONS=&quot;/tmp/tmp.e0tXpVz1DM/sql&quot;"/>
+					<Add directory="/tmp/tmp.e0tXpVz1DM/src"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp-sqlite"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 ttms-lib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ttms-exe">
+				<Option output="/tmp/tmp.e0tXpVz1DM/cmake-build-debug/ttms-exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e0tXpVz1DM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDATABASE_FILE=&quot;/tmp/tmp.e0tXpVz1DM/db.sqlite&quot;"/>
+					<Add option="-DDATABASE_MIGRATIONS=&quot;/tmp/tmp.e0tXpVz1DM/sql&quot;"/>
+					<Add directory="/tmp/tmp.e0tXpVz1DM/src"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp-sqlite"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 ttms-exe"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ttms-exe/fast">
+				<Option output="/tmp/tmp.e0tXpVz1DM/cmake-build-debug/ttms-exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e0tXpVz1DM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDATABASE_FILE=&quot;/tmp/tmp.e0tXpVz1DM/db.sqlite&quot;"/>
+					<Add option="-DDATABASE_MIGRATIONS=&quot;/tmp/tmp.e0tXpVz1DM/sql&quot;"/>
+					<Add directory="/tmp/tmp.e0tXpVz1DM/src"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp"/>
+					<Add directory="/usr/local/include/oatpp-1.3.0/oatpp-sqlite"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 ttms-exe/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.e0tXpVz1DM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.e0tXpVz1DM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/tmp.e0tXpVz1DM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/App.cpp">
+			<Option target="ttms-exe"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/controller/LogController.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/controller/PlayController.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/controller/ScheduleController.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/controller/SeatController.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/controller/StudioController.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/controller/TheaterController.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/controller/TicketController.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/controller/UserController.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/db/TTMSDb.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/DTO.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/LogDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/MessageDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/PlayDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/ScheduleDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/SeatDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/StudioDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/TheaterDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/TicketDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/dto/UserDto.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiLogServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiLogServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiPlayServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiPlayServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiScheduleServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiScheduleServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiSeatServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiSeatServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiStudioServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiStudioServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiTheaterServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiTheaterServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiTicketServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiTicketServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiUserServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/ApiService/ApiUserServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseLogServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseLogServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BasePlayServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BasePlayServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseScheduleServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseScheduleServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseSeatServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseSeatServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseStudioServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseStudioServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseTheaterServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseTheaterServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseTicketServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseTicketServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseUserServer.cpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/src/service/BaseService/BaseUserServer.hpp">
+			<Option target="ttms-lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/../../usr/local/lib/cmake/oatpp-1.3.0/oatppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/../../usr/local/lib/cmake/oatpp-1.3.0/oatppConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/../../usr/local/lib/cmake/oatpp-1.3.0/oatppTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/../../usr/local/lib/cmake/oatpp-1.3.0/oatppTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/../../usr/local/lib/cmake/oatpp-sqlite-1.3.0/oatpp-sqliteConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/../../usr/local/lib/cmake/oatpp-sqlite-1.3.0/oatpp-sqliteConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/../../usr/local/lib/cmake/oatpp-sqlite-1.3.0/oatpp-sqliteTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e0tXpVz1DM/../../usr/local/lib/cmake/oatpp-sqlite-1.3.0/oatpp-sqliteTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\oatpp-sqlite-1.3.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
